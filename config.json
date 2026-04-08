@@ -1,0 +1,92 @@
+{
+    "bot_token": "Paste Here Your Bot Token",
+    "owner_id": 0000000,
+    "admin_ids": [
+        00000000000,
+        00000000000,
+        00000000000
+    ],
+    "support_role_id": 0000000,
+    "support_role_allowed_categories": [
+        0000000,
+        0000000
+    ],
+    "ticket_open_log_channel": 00000,
+    "ticket_close_log_channel": 00000,
+    "ticket_panel": {
+        "title": "Ticket System",
+        "title_icon": "Plaster Here Title Icon",
+        "description": "**Welcome to our Ticket!**\n\nSelect a ticket type from the dropdown menu below to get started. Our team will assist you as soon as possible.\n\n**Available Options:**\n **Buy** - Purchase our Tool\n **Support** - Get Help With Any Issue\n **Reseller** - Reseller applications\n **Join Team** - Team applications\n **And More** - Check DropDown Ticket Menu",
+        "color": "0xff0000",
+        "image": "Plaste Here Embed Image URL",
+        "thumbnail": "Paste Here Embed Thumbnail URL",
+        "footer": "DEVELOPED BY YOURNAME | TICKETS SYSTEM",
+        "footer_icon": "Paste Here Embed Footer URL"
+    },
+    "ticket_options": [
+        {
+            "label": "Buy Now",
+            "description": "Buy Now Premium Products",
+            "value": "buy_ticket",
+            "emoji": "🛒",
+            "category_id": 0000,
+            "enabled": true
+        },
+        {
+            "label": "Support",
+            "description": "Get Help With Any Issue & General Support",
+            "value": "support_ticket",
+            "emoji": "☎️",
+            "category_id": 0000,
+            "enabled": true
+        },
+        {
+            "label": "Reseller",
+            "description": "Apply to Become A Reseller",
+            "value": "reseller_ticket",
+            "emoji": "🤑",
+            "category_id": 0000,
+            "enabled": true
+        },
+        {
+            "label": "Join Team",
+            "description": "Apply to Join our MEDIA/STREAMER Team",
+            "value": "team_ticket",
+            "emoji": "👥",
+            "category_id": 000,
+            "enabled": true
+        },
+        {
+            "label": "Reset HWID",
+            "description": "Request a Reset Your Key HWID",
+            "value": "hwid_reset",
+            "emoji": "🔐",
+            "category_id": 0000,
+            "enabled": true
+        },
+        {
+            "label": "Key Recover",
+            "description": "Lifetime Buyers Only Open This Ticket | To Get Your Key Back",
+            "value": "key_recover",
+            "emoji": "🔑",
+            "category_id": 0000,
+            "enabled": true
+        }
+    ],
+    "messages": {
+        "ticket_created": "✅ Ticket created successfully! {channel}",
+        "ticket_exists": "❌ You already have an open ticket! Please close it before opening a new one.",
+        "ticket_closed": "🔒 Ticket has been closed successfully!",
+        "no_permission": "❌ You don't have permission to perform this action!",
+        "invalid_category": "❌ Ticket category not found or invalid!",
+        "error_occurred": "❌ An error occurred while processing your request!"
+    },
+    "settings": {
+        "max_tickets_per_user": 99,
+        "auto_delete_delay": 5,
+        "ticket_channel_prefix": "🎫-",
+        "log_ticket_actions": true,
+        "dm_ticket_closer": true,
+        "auto_close_on_leave": true
+    }
+}
