@@ -1,18 +1,20 @@
 {
     "DISCORD_TOKEN": "Paste Here Your Bot Token",
-    "owner_id": 0000000,
+    "owner_id": 609914623986237442,
     "admin_ids": [
-        00000000000,
-        00000000000,
-        00000000000
+        1262027340129505290,
+        1431752582656688169,
+        1314138138930843689,
+        984500304303243345,
+        1363730772451655823
     ],
-    "support_role_id": 0000000,
+    "support_role_id": 1431752582313021640,
     "support_role_allowed_categories": [
-        0000000,
-        0000000
+        1431752583957188694,
+        1431752583957188699
     ],
-    "ticket_open_log_channel": 00000,
-    "ticket_close_log_channel": 00000,
+    "ticket_open_log_channel": 1431752584154189833,
+    "ticket_close_log_channel": 1431752584154189833,
     "ticket_panel": {
         "title": "Ticket System",
         "title_icon": "Plaster Here Title Icon",
