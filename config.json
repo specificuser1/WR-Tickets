@@ -30,48 +30,48 @@
             "label": "Buy Now",
             "description": "Buy Now Premium Products",
             "value": "buy_ticket",
-            "emoji": "🛒",
-            "category_id": 0000,
+            "emoji": "🎫",
+            "category_id": 1431752583801995389,
             "enabled": true
         },
         {
             "label": "Support",
             "description": "Get Help With Any Issue & General Support",
             "value": "support_ticket",
-            "emoji": "☎️",
-            "category_id": 0000,
+            "emoji": "🎫",
+            "category_id": 1431752583957188694,
             "enabled": true
         },
         {
             "label": "Reseller",
             "description": "Apply to Become A Reseller",
             "value": "reseller_ticket",
-            "emoji": "🤑",
-            "category_id": 0000,
+            "emoji": "🎫",
+            "category_id": 1431752583957188696,
             "enabled": true
         },
         {
             "label": "Join Team",
             "description": "Apply to Join our MEDIA/STREAMER Team",
             "value": "team_ticket",
-            "emoji": "👥",
-            "category_id": 000,
+            "emoji": "🎫",
+            "category_id": 1431752583957188699,
             "enabled": true
         },
         {
             "label": "Reset HWID",
             "description": "Request a Reset Your Key HWID",
             "value": "hwid_reset",
-            "emoji": "🔐",
-            "category_id": 0000,
+            "emoji": "🎫",
+            "category_id": 1431752583957188697,
             "enabled": true
         },
         {
             "label": "Key Recover",
             "description": "Lifetime Buyers Only Open This Ticket | To Get Your Key Back",
             "value": "key_recover",
-            "emoji": "🔑",
-            "category_id": 0000,
+            "emoji": "🎫",
+            "category_id": 1431752583957188698,
             "enabled": true
         }
     ],
