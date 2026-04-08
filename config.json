@@ -16,21 +16,21 @@
     "ticket_open_log_channel": 1431752584154189833,
     "ticket_close_log_channel": 1431752584154189833,
     "ticket_panel": {
-        "title": "Ticket System",
-        "title_icon": "Plaster Here Title Icon",
-        "description": "**Welcome to our Ticket!**\n\nSelect a ticket type from the dropdown menu below to get started. Our team will assist you as soon as possible.\n\n**Available Options:**\n **Buy** - Purchase our Tool\n **Support** - Get Help With Any Issue\n **Reseller** - Reseller applications\n **Join Team** - Team applications\n **And More** - Check DropDown Ticket Menu",
+        "title": "WARRIOR TICKETS SYSTEM",
+        "title_icon": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&",
+        "description": "**Welcome to our Ticket!**\n\nSelect a ticket type from the dropdown menu below to get started. Our team will assist you as soon as possible.\n\n**Available Options:**\n<a:Dot:1491453467318026434> **Buy** - Purchase our Tool\n<a:Dot:1491453467318026434> **Support** - Get Help With Any Issue\n<a:Dot:1491453467318026434> **Reseller** - Reseller applications\n<a:Dot:1491453467318026434> **Join Team** - Team applications\n<a:Dot:1491453467318026434> **And More** - Check DropDown Ticket Menu",
         "color": "0xff0000",
-        "image": "Plaste Here Embed Image URL",
-        "thumbnail": "Paste Here Embed Thumbnail URL",
-        "footer": "DEVELOPED BY YOURNAME | TICKETS SYSTEM",
-        "footer_icon": "Paste Here Embed Footer URL"
+        "image": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461359580217555/1775572751947.png?ex=69d7c722&is=69d675a2&hm=f8f4855394736dd3a395494ff44d50b8785e193a540f6a78805791c2b59c25c8&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&",
+        "footer": "PROGRAMMED BY SUBHAN | WARRIOR TICKETS",
+        "footer_icon": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&"
     },
     "ticket_options": [
         {
             "label": "Buy Now",
-            "description": "Buy Now Premium Products",
+            "description": "Warrior Premium Products",
             "value": "buy_ticket",
-            "emoji": "🎫",
+            "emoji": "<:WarriorBuy:1491457361225977947>",
             "category_id": 1431752583801995389,
             "enabled": true
         },
@@ -38,7 +38,7 @@
             "label": "Support",
             "description": "Get Help With Any Issue & General Support",
             "value": "support_ticket",
-            "emoji": "🎫",
+            "emoji": "<a:WarriorSupport:1491458954017112114>",
             "category_id": 1431752583957188694,
             "enabled": true
         },
@@ -46,7 +46,7 @@
             "label": "Reseller",
             "description": "Apply to Become A Reseller",
             "value": "reseller_ticket",
-            "emoji": "🎫",
+            "emoji": "<:Reseller:1491453483293999205>",
             "category_id": 1431752583957188696,
             "enabled": true
         },
@@ -54,7 +54,7 @@
             "label": "Join Team",
             "description": "Apply to Join our MEDIA/STREAMER Team",
             "value": "team_ticket",
-            "emoji": "🎫",
+            "emoji": "<:Jointeam:1491457356008128512>",
             "category_id": 1431752583957188699,
             "enabled": true
         },
@@ -62,7 +62,7 @@
             "label": "Reset HWID",
             "description": "Request a Reset Your Key HWID",
             "value": "hwid_reset",
-            "emoji": "🎫",
+            "emoji": "<:Hwid:1491457358512001175>",
             "category_id": 1431752583957188697,
             "enabled": true
         },
@@ -70,15 +70,15 @@
             "label": "Key Recover",
             "description": "Lifetime Buyers Only Open This Ticket | To Get Your Key Back",
             "value": "key_recover",
-            "emoji": "🎫",
+            "emoji": "<:RecoverKey:1491453471809863730>",
             "category_id": 1431752583957188698,
             "enabled": true
         }
     ],
     "messages": {
-        "ticket_created": "✅ Ticket created successfully! {channel}",
+        "ticket_created": "<a:Tick:1491453476469735555> Ticket Created Check {channel}",
         "ticket_exists": "❌ You already have an open ticket! Please close it before opening a new one.",
-        "ticket_closed": "🔒 Ticket has been closed successfully!",
+        "ticket_closed": "<:Lock:1491457363759075440> Ticket has been closed!",
         "no_permission": "❌ You don't have permission to perform this action!",
         "invalid_category": "❌ Ticket category not found or invalid!",
         "error_occurred": "❌ An error occurred while processing your request!"
