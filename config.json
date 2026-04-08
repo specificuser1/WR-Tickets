@@ -1,5 +1,5 @@
 {
-    "bot_token": "Paste Here Your Bot Token",
+    "DISCORD_TOKEN": "Paste Here Your Bot Token",
     "owner_id": 0000000,
     "admin_ids": [
         00000000000,
