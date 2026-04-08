@@ -7,6 +7,7 @@ import datetime
 from typing import Optional, Dict, Any
 import logging
 import os
+from dotenv import load_dotenv
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
