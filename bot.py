@@ -63,8 +63,8 @@ class TicketBot(commands.Bot):
         
         # Set bot status
         activity = discord.Activity(
-            type=discord.ActivityType.playing,
-            name="TICKET SYSTEM"
+            type=discord.ActivityType.streaming,
+            name="Warrior Tickets"
         )
         await self.change_presence(activity=activity)
     
