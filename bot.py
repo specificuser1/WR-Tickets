@@ -520,22 +520,31 @@ async def on_error(event, *args, **kwargs):
     logger.error(f"Error in {event}: {args}, {kwargs}")
 
 if __name__ == "__main__":
-    # Check if config exists
-    if not os.path.exists('config.json'):
-        print("❌ config.json not found! Please create it first.")
-        exit(1)
     
-    # Load token
-    try:
-        with open('config.json', 'r', encoding='utf-8') as f:   # ✅ FIXED HERE
-            config = json.load(f)
-            token = config.get('bot_token')
-            if not token:
-                print("❌ Bot token not found in config.json!")
-                exit(1)
-    except Exception as e:
-        print(f"❌ Error loading config: {e}")
-        exit(1)
-    
+    # Load .env
+    load_dotenv()
+
+    # Try getting token from .env
+    token = os.getenv("DISCORD_TOKEN")
+
+    # If not found, fallback to config.json
+    if not token:
+        if not os.path.exists('config.json'):
+            print("❌ config.json not found and no token in .env!")
+            exit(1)
+
+        try:
+            with open('config.json', 'r', encoding='utf-8') as f:
+                config = json.load(f)
+                token = config.get('bot_token')
+
+                if not token:
+                    print("❌ Bot token not found in config.json or .env!")
+                    exit(1)
+
+        except Exception as e:
+            print(f"❌ Error loading config: {e}")
+            exit(1)
+
     # Run bot
     bot.run(token)
