@@ -18,11 +18,11 @@
     "ticket_panel": {
         "title": "WARRIOR TICKETS SYSTEM",
         "title_icon": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&",
-        "description": "**Welcome to our Ticket!**\n\nSelect a ticket type from the dropdown menu below to get started. Our team will assist you as soon as possible.\n\n**Available Options:**\n<a:Dot:1491453467318026434> **Buy** - Purchase our Tool\n<a:Dot:1491453467318026434> **Support** - Get Help With Any Issue\n<a:Dot:1491453467318026434> **Reseller** - Reseller applications\n<a:Dot:1491453467318026434> **Join Team** - Team applications\n<a:Dot:1491453467318026434> **And More** - Check DropDown Ticket Menu",
+        "description": "\nSelect a ticket type from the dropdown menu below to get started. Our team will assist you as soon as possible.\n\n**Available Options:**\n<a:Dot:1491453467318026434> **Buy** - Purchase our Tool\n<a:Dot:1491453467318026434> **Support** - Get Help With Any Issue\n<a:Dot:1491453467318026434> **Reseller** - Reseller applications\n<a:Dot:1491453467318026434> **Join Team** - Team applications\n<a:Dot:1491453467318026434> **And More** - Check DropDown Ticket Menu",
         "color": "0xff0000",
         "image": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461359580217555/1775572751947.png?ex=69d7c722&is=69d675a2&hm=f8f4855394736dd3a395494ff44d50b8785e193a540f6a78805791c2b59c25c8&",
         "thumbnail": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&",
-        "footer": "PROGRAMMED BY SUBHAN | WARRIOR TICKETS",
+        "footer": "PROGRAMMED BY SUBHAN",
         "footer_icon": "https://cdn.discordapp.com/attachments/1431752584154189828/1491461387405230311/1775572046777.png?ex=69d7c728&is=69d675a8&hm=5f23fa8bd106055dbdf1f2320b0011ac1755cb45e290554034bda87104de1669&"
     },
     "ticket_options": [
